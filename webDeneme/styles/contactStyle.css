@@ -1,0 +1,39 @@
+.iletisimKutulari{
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 40px;
+    padding: 20px;
+    background-color: rgb(255, 196, 176);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.iletisimKutu, .formGrup{
+    flex: 1;
+}
+
+.iletisimKutu h2{
+    color: rgb(241, 60, 0);
+    margin-bottom: 20px;
+}
+
+.iletisimBilgileri{
+    margin-bottom: 20px;
+}
+
+.iletisimBilgileri strong{
+    display: block;
+    color: rgb(241, 0, 0);
+    margin-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(254, 134, 113);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    resize: vertical;
+}

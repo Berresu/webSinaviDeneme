@@ -1,0 +1,41 @@
+.referansList{
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.referansKutu{
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(254, 134, 113);
+    padding: 15px;
+    background-color: rgb(255, 196, 176);
+    border-radius: 5px;
+}
+
+.referansImage{
+    width: 120px;
+    height: 100px;
+    border: 2px solid rgb(214, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(214, 0, 0);
+    font-weight: bold;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.referansMetin h3{
+    margin: 0 0 10px 0;
+    color: rgb(241, 60, 0);
+}
+
+.referansMetin p{
+    margin: 0;
+    color: rgb(214, 75, 0);
+    line-height: 1.5;
+}
