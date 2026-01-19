@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 212, 212);
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(253, 151, 130, 0.712);
+    color: whitesmoke;
+    padding: 15px 0;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+ header #logo{
+    padding-left: 50px;
+    font-weight: bold;
+    align-items: center;
+    font-size: x-large;
+}
+
+nav ul{
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-right: 80px;
+}
+
+nav ul li{
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icerikAlani{
+    display: block;
+
+}
+
+.icerikAlani > h2{
+    flex: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 42%;
+    font-family: monospace;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.kutular{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.veletler{
+    padding-bottom: 20px;
+    font-family: monospace;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.baslik{
+    padding-bottom: 5px;
+}
+
+#kimNamjoon:hover{
+    color: #AB6F0B;
+}
+
+#minYoongi:hover{
+    color: #F73817;
+}
+
+#jungHoseok:hover{
+    color: #450C01;
+}
+
+#parkJimin:hover{
+    color: #FA2F45;
+}
+
+#kimTaehyung:hover{
+    color: #115E21;
+}
+
+#jeonJungkook:hover{
+    color: #03055B;
+}
+
+.veletler > button{
+    border: none;
+    font-family: monospace;
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+    margin-top: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#namu{
+    background-color: #AB6F0B;
+}
+
+#yoon{
+    background-color: #F73817;
+}
+
+#hobi{
+    background-color: #450C01;
+}
+
+#jim{
+    background-color: #FA2F45;
+}
+
+#tae{
+    background-color: #115E21;
+}
+
+#kook{
+    background-color: #03055B;
+}
+
+footer{
+    background-color: #FEA99A;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.form{
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-self: center;
+    align-content: center;
+    height: 80vh;
+}
+
+.form label{
+    display: block;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-bottom: 5px;
+}
+
+#eposta > input{
+    border-radius: 5px;
+    font-family: monospace;
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgba(253, 151, 130, 0.712);
+}
+
+#sifre > input{
+    border-radius: 5px;
+    font-family: monospace;
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgba(253, 151, 130, 0.712);
+}
+
+.form > button{
+    border-radius: 5px;
+    font-family: monospace;
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgba(253, 151, 130, 0.712);
+    margin-top: 12px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: rgba(253, 151, 130, 0.712);
+    font-weight: bold;
+}
